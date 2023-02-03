@@ -12,7 +12,6 @@ export function Footer() {
             <div key={title} className="px-5 py-2">
               <a
                 href={url}
-                target="_blank"
                 className="text-base text-gray-900 transition duration-500 ease-in-out hover:text-gray-500 dark:text-zinc-100 dark:hover:text-orange-500"
               >
                 {title}

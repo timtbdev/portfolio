@@ -1,5 +1,6 @@
 import { ImageResponse } from '@vercel/og'
 import { NextRequest } from 'next/server'
+import Image from 'next/image'
 
 export const config = {
   runtime: 'edge',
@@ -34,9 +35,11 @@ export default async function handler(req: NextRequest) {
         }}
       >
         <div tw="flex flex-col mx-auto max-w-7xl text-center items-center justify-center">
-          <img
+          <Image
             tw="mx-auto h-56 w-56 rounded-full"
             src="https://avatars.githubusercontent.com/u/25026241?v=4"
+            height={240}
+            width={240}
             alt=""
           />
           <h2
@@ -55,7 +58,7 @@ export default async function handler(req: NextRequest) {
               fontWeight: 'bolder',
             }}
           >
-            I'm an self taught Android Developer based in San Francisco.
+            I am Tim, and I am an Android Developer.
           </p>
         </div>
       </div>

@@ -2,6 +2,7 @@ import { Project } from "types"
 
 export const projects: Project[] = [
     {
+        id: 1,
         title: "Mongolian Sign Language",
         releaseDate: "2022-12-26",
         icon: "/placeholder/sign_icon.png",
@@ -28,6 +29,7 @@ export const projects: Project[] = [
         text: "This app aims to promote MSL learning in the hearing community to improve everyday communication accessibility between the Deaf and hearing",
     },
     {
+        id: 2,
         title: "Portfolio App 2.0",
         releaseDate: "2019-10-26",
         icon: "/app-1/icon.png",
@@ -52,6 +54,7 @@ export const projects: Project[] = [
         text: "It's the second version of my portfolio app. It was written in Kotlin and built with Android Jetpack components and MVVM design architecture, and applied several best practices.",
     },
     {
+        id: 3,
         title: "Portfolio App 1.0",
         releaseDate: "2019-08-26",
         icon: "/app-2/icon.png",

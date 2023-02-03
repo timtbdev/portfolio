@@ -30,6 +30,7 @@ export type Feature = {
 }
 
 export type Project = {
+    id: number,
     title: string,
     releaseDate: string,
     icon: string,

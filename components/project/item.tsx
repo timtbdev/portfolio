@@ -6,15 +6,14 @@ import { Project } from '../../types'
 
 interface ItemProps {
   item: Project
-  index?: number
-  divider?: boolean
+  idx: number
 }
 
-export function Item({ item, index }: ItemProps) {
+export function Item({ item, idx }: ItemProps) {
   return (
     <>
       <div
-        key={index}
+        key={idx}
         className="relative mt-4 sm:mx-6 md:mx-10 lg:mx-12 lg:grid lg:grid-cols-2 lg:gap-4"
       >
         <div className="overflow-hidden">
@@ -34,8 +33,9 @@ export function Item({ item, index }: ItemProps) {
               {item.text}
             </div>
 
-            {item.features.map((feature) => (
+            {item.features.map((feature, idx) => (
               <Feature
+                key={ idx}
                 title={feature.title}
                 description={feature.description}
               />

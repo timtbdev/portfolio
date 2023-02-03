@@ -8,8 +8,8 @@ export default function Home() {
       <div>
         <Heading />
         {projects.map((project, idx) => (
-          <Container key={idx} url={project.url}>
-            <Item item={project} index={idx} />
+          <Container key={`${project.id}+${idx}`} url={project.url}>
+            <Item item={project} idx={project.id} />
           </Container>
         ))}
       </div>
