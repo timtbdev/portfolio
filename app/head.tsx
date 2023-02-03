@@ -1,11 +1,11 @@
-import { siteConfig } from "@/config/site";
+import { homeConfig } from '@/config/home'
 
 export default function Head() {
   return (
     <>
-      <title>{siteConfig.title}</title>
+      <title>{homeConfig.title}</title>
       <meta charSet="utf-8" />
-      <meta name="description" content={siteConfig.description} />
+      <meta name="description" content={homeConfig.description} />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -26,15 +26,15 @@ export default function Head() {
       <link rel="manifest" href="/site.webmanifest" />
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content={siteConfig.title} />
-      <meta property="og:description" content={siteConfig.description} />
-      <meta property="og:url" content={siteConfig.url} />
-      <meta property="og:image" content={siteConfig.og} />
-      <meta name="twitter:title" content={siteConfig.title} />
-      <meta name="twitter:description" content={siteConfig.description} />
+      <meta property="og:title" content={homeConfig.title} />
+      <meta property="og:description" content={homeConfig.description} />
+      <meta property="og:url" content={homeConfig.url} />
+      <meta property="og:image" content={homeConfig.og} />
+      <meta name="twitter:title" content={homeConfig.title} />
+      <meta name="twitter:description" content={homeConfig.description} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content={siteConfig.url} />
-      <meta name="twitter:image" content={siteConfig.og} />
+      <meta property="twitter:url" content={homeConfig.url} />
+      <meta name="twitter:image" content={homeConfig.og} />
     </>
-  );
+  )
 }

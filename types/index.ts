@@ -1,4 +1,11 @@
-export type SiteConfig = {
+export type HomeConfig = {
+    title: string,
+    keywords: string,
+    description: string,
+    url: string,
+    og: string
+}
+export type AboutConfig = {
     title: string,
     keywords: string,
     description: string,

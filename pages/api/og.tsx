@@ -18,8 +18,12 @@ export default async function handler(req: NextRequest) {
   const fontRegular = await interRegular
   const fontBold = await interBold
 
-  const { searchParams } = req.nextUrl
-  const username = searchParams.get('username')
+  const { searchParams } = new URL(req.url)
+
+  const hasTitle = searchParams.has('title')
+  const title = hasTitle
+    ? searchParams.get('title')?.slice(0, 100)
+    : 'Oh Hello there,'
 
   return new ImageResponse(
     (
@@ -35,7 +39,7 @@ export default async function handler(req: NextRequest) {
         }}
       >
         <div tw="flex flex-col mx-auto max-w-7xl text-center items-center justify-center">
-          <Image
+          <img
             tw="mx-auto h-56 w-56 rounded-full"
             src="https://avatars.githubusercontent.com/u/25026241?v=4"
             height={240}
@@ -49,7 +53,7 @@ export default async function handler(req: NextRequest) {
               fontWeight: 'bolder',
             }}
           >
-            Oh Hello There,
+            {title}
           </h2>
           <p
             tw="text-3xl text-gray-500"
