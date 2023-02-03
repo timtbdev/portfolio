@@ -23,7 +23,7 @@ export function Container({ children, url }: ContainerProps) {
                     </div>
                     <div>
                       <div className="mx-auto flex w-4/5 items-center justify-center rounded-md border-zinc-200 bg-zinc-200/70 py-1 text-sm font-medium leading-6 ring-1 ring-inset ring-slate-900/5 dark:border-zinc-700/40 dark:bg-zinc-800 dark:text-zinc-400">
-                        <span className="mr-1.5 h-4 w-4 text-gray-900 dark:text-zinc-500">
+                        <span className="mr-1.5 hidden h-4 w-4 text-gray-900 dark:text-zinc-500 md:block">
                           <svg
                             viewBox="0 0 16 16"
                             fill="currentColor"
@@ -33,7 +33,7 @@ export function Container({ children, url }: ContainerProps) {
                           </svg>
                         </span>
                         <a
-                          className="text-gray-900 hover:text-gray-500 dark:text-zinc-500 dark:hover:text-orange-500"
+                          className="truncate text-gray-900 hover:text-gray-500 dark:text-zinc-500 dark:hover:text-orange-500"
                           href={url}
                           target="_blank"
                           rel="noreferrer"

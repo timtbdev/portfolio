@@ -75,7 +75,7 @@ export function Header() {
                   href={item.url}
                   className={clsx(
                     item.url == pathName
-                      ? 'bg-gray-900 text-white'
+                      ? 'bg-gray-900 text-white dark:bg-zinc-700'
                       : 'text-gray-900 hover:bg-gray-500 hover:text-white dark:text-white dark:hover:bg-zinc-700',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}

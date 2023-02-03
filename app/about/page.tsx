@@ -25,17 +25,18 @@ export default function About() {
               German, and Mongolian).
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              I started learning Android development in 2017, and published 2
-              Android applications on Google Play Store. I've reached over 40
+              I've started learning Android development in 2017, and launched 2
+              Android applications on Google Play Store. I've reached over 50
               stars on my Github repositories.
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              In 2019, my mother got sick, so I had to take care of her, and I
-              stopped my Android journey for 3 years.
+              In 2019, my mother got sick, and I had to stop my Android journey
+              to take care of my mother.
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
               In 2023, I started learning again modern Android development, and
-              I'm sure that I'll launch more apps to help others.
+              I've been working on my personal projects to improve my Kotlin and
+              Android skills.
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
               In my free time, I like to run and travel.

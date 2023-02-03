@@ -12,6 +12,7 @@ export function Heading() {
             <Avatar
               image={ProfileImage}
               description={profile.imageDescription}
+              large={true}
             />
           </div>
           <h2 className="text-center text-4xl font-extrabold leading-8 tracking-tight text-gray-900 dark:text-zinc-100">
