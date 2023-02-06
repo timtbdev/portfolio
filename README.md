@@ -3,9 +3,11 @@
 An open source application built using the new router, server components and everything new in Next.js 13.
 
 
-## Demo
+## Light theme
 
 ![screenshot-1](https://github.com/timtbdev/portfolio/blob/main/ligth.png)
+
+## Dark theme
 ![screenshot-2](https://raw.githubusercontent.com/timtbdev/portfolio/main/dark.png)
 
 ## About this project
