@@ -5,7 +5,7 @@ An open source application built using the new router, server components and eve
 
 ## Demo
 
-![screenshot-1](https://raw.githubusercontent.com/timtbdev/portfolio/main/light.png)
+![screenshot-1](https://github.com/timtbdev/portfolio/blob/main/ligth.png)
 ![screenshot-2](https://raw.githubusercontent.com/timtbdev/portfolio/main/dark.png)
 
 ## About this project
