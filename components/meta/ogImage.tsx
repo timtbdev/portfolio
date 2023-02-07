@@ -148,13 +148,6 @@ export function PageOgImage({
           style={styles.authorAvatar}
         />
         <div style={styles.authorName}>@timtbdev</div>
-
-        {date && (
-          <>
-            <div style={styles.divider}>&middot;</div>
-            <div style={styles.description}>{date}</div>
-          </>
-        )}
       </div>
       <div style={styles.borderBottom} />
     </div>
