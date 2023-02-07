@@ -32,7 +32,13 @@ export function Slider({ images }: SliderProps) {
             className="keen-slider__slide relative mx-auto w-9/12"
           >
             <span className="sr-only">Screenshot</span>
-            <Image src={image} width={640} height={840} alt="Screenshot" />
+            <Image
+              src={image}
+              width={640}
+              height={840}
+              alt="Screenshot"
+              priority
+            />
           </div>
         ))}
       </div>

@@ -7,7 +7,7 @@ export function Heading() {
   return (
     <>
       <>
-        <div className="my-8 flex flex-col place-items-center gap-6">
+        <div className="flex flex-col place-items-center gap-6 py-8">
           <div className="flex justify-center lg:hidden">
             <Avatar
               image={ProfileImage}

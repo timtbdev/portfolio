@@ -33,6 +33,7 @@ export function Header({
                 width={80}
                 height={80}
                 alt={iconDescription}
+                priority
               />
             </div>
 
