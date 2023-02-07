@@ -17,17 +17,14 @@ export default function About() {
             />
             <h1>
               <span className="mt-5 block text-left text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-zinc-100 sm:text-4xl">
-                You want to know more about me?
-              </span>
-              <span className="mt-2 block text-left text-2xl font-bold leading-8 tracking-tight text-gray-900 dark:text-zinc-100 sm:text-4xl">
-                OK, if you insist.
+                Oh hello there,
               </span>
             </h1>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              Hey. I'm Tim, a self-taught Android developer based in San
-              Francisco. I'm originally from Mongolia. I have a Bachelor degree
-              in Computer Science from Germany. I speak three languages
-              (English, German, and Mongolian).
+              I'm Tim, a self-taught Android developer based in San Francisco.
+              I'm originally from Mongolia. I have a Bachelor degree in Computer
+              Science from Germany. I speak three languages (English, German,
+              and Mongolian).
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
               I've started learning Android development in 2017, and launched 2
