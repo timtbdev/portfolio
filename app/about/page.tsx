@@ -22,30 +22,33 @@ export default function About() {
             </h1>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
               I'm Tim, a self-taught Android developer based in San Francisco.
-              I'm originally from Mongolia. I have a Bachelor degree in Computer
-              Science from Germany. I speak three languages (English, German,
-              and Mongolian).
+              I'm originally from Mongolia and, studied Computer Science in
+              Germany. I can speak three languages (English, German, and
+              Mongolian).
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              I've started learning Android development in 2017, and launched 2
+              I started learning Android development in 2017 and launched 2
               Android applications on Google Play Store. I've reached over 50
               stars on my Github repositories.
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              Since then, I've been working on my personal projects.
+              Since then, I've been working on my projects.
             </p>
 
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
               Anyway, that's enough about me.
             </p>
-            <p className="mt-5">
+            <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
+              I'm looking for an entry-level Android engineering role. If you
+              think I might be a good fit for your organization, shoot me an
+              email at{' '}
               <a
                 href="mailto:timtb@hey.com"
-                type="button"
-                className="inline-flex items-center rounded-full border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className=" text-orange-600 underline hover:text-zinc-100 hover:no-underline"
               >
-                Get in touch
-              </a>
+                timtb@hey.com
+              </a>{' '}
+              and let's chat.
             </p>
           </div>
         </div>
