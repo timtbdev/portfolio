@@ -38,16 +38,6 @@ export default function About() {
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
               Anyway, that's enough about me.
             </p>
-            <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              What you really want to know is how I can help you. Isn’t it?
-            </p>
-            <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              As well as specialising in Kotlin and Android development, I can
-              also create beuatiful websites with NextJs and TailwindCss.
-            </p>
-            <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              So what are you waiting for?
-            </p>
             <p className="mt-5">
               <a
                 href="mailto:timtb@hey.com"
