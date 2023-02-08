@@ -32,7 +32,9 @@ export default function About() {
               stars on my Github repositories.
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              Since then, I've been working on my projects.
+              I enjoy the UI side of Android development and making smooth and
+              thoughtful fun mobile experiences. (though I'm open to trying
+              something new)
             </p>
 
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
