@@ -21,20 +21,22 @@ export default function About() {
               </span>
             </h1>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              I'm Tim, a self-taught Android developer based in San Francisco.
-              I'm originally from Mongolia and, studied Computer Science in
-              Germany. I can speak three languages (English, German, and
-              Mongolian).
+              I'm Tim, an Android developer based in San Francisco. I'm
+              originally from Mongolia and, studied Computer Science in Germany.
+              I can speak three languages (English, German, and Mongolian).
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              I started learning Android development in 2017 and launched 2
-              Android applications on Google Play Store. I've reached over 50
-              stars on my Github repositories.
+              I started learning Android development in 2017 and launched 2 apps
+              on Google Play Store and open-sourced them on GitHub.
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
-              I enjoy the UI side of Android development and making smooth and
-              fun mobile experiences with modern Android tools like Jetpack
-              Compose. But, I'm open to trying something new.
+              I enjoy making smooth and fun Android UI with modern tools like
+              Jetpack Compose. Also, I care about building accessible user
+              interfaces.
+            </p>
+            <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
+              Currently, I'm working on personal projects to improve my Android
+              and Kotlin skills.
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
               Anyway, that's enough about me.
