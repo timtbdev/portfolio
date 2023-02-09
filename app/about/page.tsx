@@ -31,7 +31,7 @@ export default function About() {
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
               I enjoy making smooth and fun Android UI with modern tools like
-              Jetpack Compose. Also, I care about building accessible user
+              Jetpack Compose. And, I care about building accessible user
               interfaces.
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
