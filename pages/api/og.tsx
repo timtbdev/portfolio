@@ -20,11 +20,6 @@ const OgImage = async (request: NextRequest) => {
   const { searchParams } = new URL(request.url)
   const get = (param: string): string => searchParams.get(param) || ''
 
-  const imageSize = {
-    width: 1200,
-    height: 630,
-  }
-
   try {
     const subTitle = get('subTitle')
     const title = get('title')
@@ -36,8 +31,8 @@ const OgImage = async (request: NextRequest) => {
     return new ImageResponse(
       <PageOgImage subTitle={subTitle} title={title} tags={tags} />,
       {
-        width: imageSize.width,
-        height: imageSize.height,
+        width: 1200,
+        height: 630,
         emoji: 'fluent',
         fonts: [
           {
