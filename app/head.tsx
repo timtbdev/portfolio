@@ -29,12 +29,18 @@ export default function Head() {
       <meta property="og:title" content={homeConfig.title} />
       <meta property="og:description" content={homeConfig.description} />
       <meta property="og:url" content={homeConfig.url} />
-      <meta property="og:image" content={homeConfig.og} />
+      <meta
+        property="og:image"
+        content="https://portfolio-timtbdev.vercel.app/api/og?title=Projects&amp;title=I am Tim, an SF based Android Developer&amp;tags=Kotlin,Android Development"
+      />
       <meta name="twitter:title" content={homeConfig.title} />
       <meta name="twitter:description" content={homeConfig.description} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content={homeConfig.url} />
-      <meta name="twitter:image" content={homeConfig.og} />
+      <meta
+        name="twitter:image"
+        content="https://portfolio-timtbdev.vercel.app/api/og?title=Projects&amp;title=I am Tim, an SF based Android Developer&amp;tags=Kotlin,Android Development"
+      />
     </>
   )
 }
