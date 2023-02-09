@@ -31,7 +31,7 @@ export default function Head() {
       <meta property="og:url" content={homeConfig.url} />
       <meta
         property="og:image"
-        content="https://portfolio-timtbdev.vercel.app/api/og?title=Projects&amp;title=I am Tim, an SF based Android Developer&amp;tags=Kotlin,Android Development"
+        content="https://portfolio-timtbdev.vercel.app/og.png"
       />
       <meta name="twitter:title" content={homeConfig.title} />
       <meta name="twitter:description" content={homeConfig.description} />
@@ -39,7 +39,7 @@ export default function Head() {
       <meta property="twitter:url" content={homeConfig.url} />
       <meta
         name="twitter:image"
-        content="https://portfolio-timtbdev.vercel.app/api/og?title=Projects&amp;title=I am Tim, an SF based Android Developer&amp;tags=Kotlin,Android Development"
+        content="https://portfolio-timtbdev.vercel.app/og.png"
       />
     </>
   )
