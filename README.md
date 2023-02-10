@@ -1,10 +1,6 @@
 <div>
   <h1>
     Timtb.dev
-    &middot;
-    <img src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fwww.timtb.dev"/>
-    <img src="https://img.shields.io/github/deployments/timtbdev/timtb.dev/production?label=production&style=flat-square"/>
-    <img src="https://img.shields.io/github/commit-activity/m/timtbdev/timtb.dev?style=flat-square"/>
   </h1>
 </div>
 
