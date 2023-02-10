@@ -16,4 +16,9 @@ export const menu: Menu[] = [
         url: 'https://docs.google.com/document/d/1hvo_to-4afAtN_zVHch48SiWYSFNTyYQUfhDQX1-O9o//export?format=pdf&attachment=false',
         idx: 3
     },
+    {
+        title: 'Github',
+        url: 'https://github.com/timtbdev/portfolio',
+        idx: 4
+    },
 ]
