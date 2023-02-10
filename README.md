@@ -10,11 +10,10 @@ A monorepo for my personal website and projects, built with Turborepo and pnpm.
 
 A portfolio website
 
-https://user-images.githubusercontent.com/95107212/210668021-fd49431f-85a3-4bd7-bf9e-09639cb38922.mp4
+https://user-images.githubusercontent.com/25026241/217975781-3fa7781a-6184-45b7-8ca6-a79ba57bdad1.mp4
 
 ### Tech Stack
 
 - 🚀 Next.js + TypeScript
 - 🍃 Tailwind CSS
 
-[FIND OUT MORE →](app/timtb.dev)
