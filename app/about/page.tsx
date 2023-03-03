@@ -31,7 +31,7 @@ export default function About() {
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
               I enjoy making smooth and fun Android UI with modern tools like
-              Jetpack Compose. And, I care about building accessible user
+              Jetpack Compose. Also, I care about building accessible user
               interfaces.
             </p>
             <p className="mt-5 text-xl leading-8 text-zinc-500 dark:text-zinc-300">
@@ -46,10 +46,10 @@ export default function About() {
               think I might be a good fit for your organization, shoot me an
               email at{' '}
               <a
-                href="mailto:timtb@hey.com"
+                href="mailto:timtb.dev@gmail.com"
                 className=" text-orange-600 underline hover:text-zinc-100 hover:no-underline"
               >
-                timtb@hey.com
+                timtb.dev@gmail.com
               </a>{' '}
               and let's chat.
             </p>
